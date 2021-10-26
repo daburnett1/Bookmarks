@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django 3 By Example - Third Edition</title>
+</head>
+
+<body>
+    <h1 style="font-size:100px;"><b>Django 3 By Example - Third Edition</b></h1>
+    <h2 style="font-size:50px;"><i>Antonio Melé</i></h2>
+    <h3 style="font-size:24px;"><u>Bookmarks Project</u></h3>
+
+    <ul>
+        <li><a href="admin/">Admin</a></li>
+        <li><a href="{% url 'dashboard' %}">Account</a></li>
+        <li><a href="{% url 'images:list' %}">Images</a></li>
+    </ul>
+</body>
+</html>
